@@ -1,0 +1,275 @@
+body {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  font-family: "Motiva Sans", Sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  color: #9b9b9b;
+  font-family: "Motiva Sans", Sans-serif;
+  font-size: 3rem;
+  font-weight: normal;
+  margin: auto;
+}
+
+h2 {
+  font-family: "Motiva Sans", Sans-serif;
+  color: #9b9b9b;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "Motiva Sans", Sans-serif;
+  color: #9b9b9b;
+  font-size: 1.4rem;
+}
+
+hr {
+  border: dotted rgb(210, 210, 210) 6px;
+  border-bottom: none;
+  width: 40px;
+  margin: 50px auto;
+}
+
+p {
+  line-height: 2;
+  font-size: 1.05rem;
+  color: #ffffff;
+  font-weight: normal;
+}
+
+a:hover {
+  color: rgb(234, 246, 246);
+}
+
+.video-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  z-index: -1;
+}
+
+div.video-bg video {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.foreground {
+  background-color: rgba(34, 35, 48, 0.93);
+  width: 940px;
+  height: 100%;
+  position: relative;
+  margin: auto;
+  border-radius: 0.5%;
+}
+
+.top-container {
+  background: #171a21;
+  position: sticky;
+  width: 940px;
+  height: 80px;
+  top: 0;
+  margin: 0 auto;
+  z-index: 402;
+}
+
+.supernav{
+  width: 940px;
+  height: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.top-link {
+  display: block;
+  position: relative;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 7px;
+  line-height: 16px;
+  float: left;
+  font-size: 14px;
+  color: #b8b6b4;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  margin: 50px 20px auto;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.wave-box {
+  height: 250px;
+  width: 250px;
+  margin: 25px auto;
+  overflow: hidden;
+}
+
+.fade {
+  -webkit-animation: fadein 2s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s;
+  /* Firefox < 16 */
+  -ms-animation: fadein 2s;
+  /* Internet Explorer */
+  -o-animation: fadein 2s;
+  /* Opera < 12.1 */
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.waving {
+  width: 100%;
+  height: 100%;
+  object-position: 70% 15%;
+  border-radius: 50%;
+}
+
+.greetings {
+  background-color: #101214;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 9px;
+  overflow: hidden;
+  width: 80%;
+  top: 100px;
+  margin: 50px auto 0;
+}
+
+.box {
+  position: relative;
+  width: 225px;
+  height: 225px;
+  margin: auto auto;
+  margin-right: 15px;
+  float: left;
+}
+
+.profile {
+  border-radius: 3%;
+  position: relative;
+  min-height: 184px;
+  min-width: 184px;
+  top: 20px;
+}
+
+.animated-frame {
+  position: absolute;
+  width: 225px;
+  height: 225px;
+  left: 0;
+}
+
+.hello {
+  position: relative;
+  right: 15%;
+}
+
+.intro-box {
+  position: relative;
+}
+
+.intro {
+  margin: auto;
+  color: #ffffff;
+  font-weight: normal;
+}
+
+.twitch-link{
+  color: rgb(255, 75, 160);
+  text-decoration: none;
+}
+
+.llv-logo {
+  color: rgb(255, 75, 160);
+  text-decoration: none;
+}
+
+.middle-container {
+  margin: 0 0 50px;
+  position: relative;
+  overflow: hidden;
+}
+
+.bottom-container {
+  background: #171a21;;
+  padding: 50px 0 20px;
+  position: relative;
+}
+
+.skills {
+  background-color: #101214;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 9px;
+  width: 80%;
+  margin: 50px auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.computer-img {
+  width: 10rem;
+  float: left;
+  margin-right: 30px;
+}
+
+.chilli-img {
+  width: 10rem;
+  border-radius: 10px;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 80%;
+  margin: 100px auto;
+  text-align: left;
+  overflow: hidden;
+}
+
+.contact-me {
+  width: 80%;
+  margin: auto;
+  line-height: 2;
+  position: relative;
+}
+
+.outro {
+  width: 85%;
+  font-size: 1.05rem;
+  margin: 40px auto 60px;
+}
+
+.copy-right {
+  color: rgb(234, 246, 246);
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.footer-link {
+  color: #b8b6b4;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+}

@@ -1,0 +1,20 @@
+.full {
+  max-width: 184px;
+  max-height: 184px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.profile {
+  border-radius: 3%;
+  position: absolute;
+  min-height: 184px;
+  min-width: 184px;
+  overflow: hidden;
+}
+
+.animated-frame {
+  position: relative;
+  right: 20px;
+  bottom: 20px;
+}
